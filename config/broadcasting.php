@@ -38,6 +38,10 @@ return [
             'options' => [
                 'cluster' => env('PUSHER_APP_CLUSTER'),
                 'useTLS' => true,
+                // 'encrypted' => true,
+                'host' => '127.0.0.1',
+                'post' => 6001,
+                'schema' => 'https',
             ],
         ],
 
